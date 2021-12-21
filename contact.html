@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nordic Contact</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="bg-portfolio">
+    <script src="/main.js" async></script>
+    <nav id="hamnav">
+      <label for="hamburger">&#9776;</label>
+      <input type="checkbox" id="hamburger" />
+      <div id="hamitems">
+        <a href="/index.html">Home</a>
+        <a href="/Portfolio.html">Portfolio</a>
+        <a href="/team.html">Team</a>
+        <a href="/contact.html">Contact</a>
+      </div>
+    </nav>
+    <main class="main-team">
+      <h1>Code Nordic</h1>
+
+      <form>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="fname" />
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lname" />
+
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="subject">Subject</label>
+
+<select name="subject" id="subject">
+  <option value="1">General question</option>
+  <option value="2">Invoice issues</option>
+  <option value="3">Customer service</option>
+  <option value="4">Investor relations</option>
+</select>
+
+        <label for="comment">Leave us a message</label>
+        <textarea
+          id="comment"
+          name="comment"
+          rows="5"
+          cols="50"
+          placeholder="Enter text"
+        ></textarea>
+
+        <label class="checkbox"
+          >I'm not a robot
+          <input type="checkbox" />
+          <span class="checkmark"></span>
+        </label>
+
+        <input type="submit" value="Submit" />
+      </form>
+      <h2>CONTACT</h2>
+      <p><a href="mailto:info@codenordic.com">info@codenordic.com</a></p>
+      <p><a href="tel:+46123-456-7890">Tel:123-456-7890</a></p>
+    </main>
+
+    <footer>
+      <p>Copyright &copy; 2021 Nordic</p>
+      <button class="scrollToTopBtn">Top</button>
+    </footer>
+  </body>
+</html>
