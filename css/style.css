@@ -36,7 +36,6 @@ main {
 }
 .main-team {
   max-width: var(--site-width);
-  padding-top: 0;
   padding-left: var(--site-padding);
   padding-right: var(--site-padding);
   padding-bottom: 3em;
